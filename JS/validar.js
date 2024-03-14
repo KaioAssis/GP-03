@@ -1,11 +1,11 @@
 // Verifica se há uma token no Local Storage
 if (localStorage.getItem('token')) {
-  // Se houver, espera 30 segundos antes de remover
+  
   setTimeout(function() {
-    // Remove a token do Local Storage após 30 segundos
+    // Remove a token do Local Storage após ALGUNS MINUTOS
     localStorage.removeItem('token');
-    console.log('Token removida do Local Storage após 30 segundos.');
-  }, 1200000); // 30 segundos em milissegundos
+    console.log('Token removida do Local Storage após alguns minutos.');
+  }, 1200000); // 20 minutos em milissegundos
 } else {
   console.log('Nenhuma token encontrada no Local Storage.');
 }
