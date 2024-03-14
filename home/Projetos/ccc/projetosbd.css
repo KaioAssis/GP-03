@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(95, 95, 95);
+}
+
+.corpo {
+    background-color: rgb(143, 142, 142);
+    padding: 1px;
+    display: flex; /* Adicionando display flex */
+    justify-content: center; /* Centralizando horizontalmente */
+    align-items: center; /* Centralizando verticalmente */
+    text-align: center;
+    position: relative;
+    height: 30%; /* Define a altura do .corpo para ocupar toda a altura da janela */
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+.links {
+    background: black;
+    color: white;
+    display: flex;
+    width: 30%;
+    margin: 20px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    border: 1px solid white;
+}

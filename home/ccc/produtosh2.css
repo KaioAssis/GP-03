@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: rgb(255, 249, 249);
+    text-decoration: none;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+
+}
+
+a:hover{
+   color: #97adcc;
+
+}
+
+#logo{
+    font-size: 2.5em;
+    font-weight: bolder
+ 
+}
+
+#header{
+    box-sizing: border-box;
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(0, 0, 0);
+ 
+}
+#menu{
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+    font-size: 1.5em;
+
+
+}
+
+menu a{
+    display: block;
+    padding: 5rem;
+}
+
+#btn-mobile{
+    display: none;
+}
+
+@media (max-width: 600px) {
+    #logo{
+        font-size: 1.5em;
+    }
+    
+}
+    
