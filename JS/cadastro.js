@@ -89,7 +89,7 @@ senha.addEventListener('keyup', () => {
     }
 });
 
-function cadastrar() { //provavelmente aqui vai ser onde eu vou puxar pra um banco de dados
+function cadastrar() { //cadastro
     if (validNome && validUsuario && validSenha && validConfirmSenha) {
 
         let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
@@ -111,7 +111,7 @@ function cadastrar() { //provavelmente aqui vai ser onde eu vou puxar pra um ban
 
     setTimeout(()=>{
         
-    window.location.href = '../index.html'
+    window.location.href = '../index.html';
 
     }, 3000)
     } else {
