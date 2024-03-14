@@ -111,7 +111,7 @@ function cadastrar() { //provavelmente aqui vai ser onde eu vou puxar pra um ban
 
     setTimeout(()=>{
         
-    window.location.href = 'TelaLogin.html'
+    window.location.href = '../index.html'
 
     }, 3000)
     } else {
